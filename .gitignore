@@ -1,0 +1,39 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend
+backend/target/
+backend/*.log
+backend/.env
+
+# Android
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+android-app/google-services.json
+android-app/app/google-services.json
+
+# Secrets
+*.env
+*.pem
+*.key
+*-service-account.json
+firebase-adminsdk*.json
+
+# Compiled
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+logs/
